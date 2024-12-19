@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/que1.css">
+</head>
+<body>
+    <!-- Task: Style the contact form (created in the HTML Forms lab) using external CSS. 
+The following should be implemented: 
+• Change the background color of the form. 
+• Add padding and margins to form fields. 
+• Style the submit button with a hover effect. 
+• Use class selectors for styling common elements and ID selectors for 
+unique elements. -->
+
+
+
+
+<form method="post">
+    <h1>Contact Us</h1>
+    <table>
+   <tr>
+    <td>    <label for="Full Name">Full Name:</label>
+    </td>
+    <td>    <input type="text" required pattern="[a-z A-Z]" name="Full Name">
+    </td>
+   </tr>
+
+<tr>
+    <td>    <label for="Email">Email:</label>
+    </td>
+    <td>    <input type="email" name="Email" required>
+    </td>
+</tr>
+
+<tr>
+    <td>    <label for="Phone No">Phone No:</label>
+    </td>
+    <td>    <input type="tel" name="Phone number" required>
+    </td>
+</tr>
+   
+<tr>
+    <td>    <label for="Subject">Subject:</label> 
+    </td>
+    <td><select name="Subject">
+        <option value="option 1">option 1</option>
+        <option value="option 2">option 2</option>
+        <option value="option 3">option 3</option>
+    </select></td>
+</tr>
+    
+   <tr>
+    <td>    <label for="Message">Message:</label>
+    </td>
+    <td>    <textarea name="Message"></textarea>
+    </td>
+   </tr>
+   
+
+    <tr>
+        <td colspan="2">    <input type="submit" class="submit">
+        </td>
+    </tr>
+</table>
+</form>
+
+</body>
+</html>
